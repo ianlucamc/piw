@@ -1,13 +1,40 @@
 *{padding: 0;
 
 }
+
+img{
+  width: 20px;
+  height: 20px;
+}
+
+#curriculo{
+  background-color: #FAFAFA;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.cabecalho{
+  font-family: 'Prompt', sans-serif;
+  background-color:#ededed;
+  font-size: 20px;
+  font-style: italic;
+  color: #000000;
+}
+
 body{
   background-color: #ffffff;
 
 }
-.cabecalho{
-  background-color:#ededed;
-  font-size: 20px;
-  font-style: italic;
-  color;
+
+.nome{
+  float: left;
+}
+
+.informacoes{
+  text-align: right;
+  float: right;
+}
+
+.limpar-float{
+  clear: both;
 }
