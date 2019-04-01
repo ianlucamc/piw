@@ -14,7 +14,7 @@ img{
 }
 
 .cabecalho{
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   background-color:#ededed;
   font-size: 20px;
   font-style: italic;
@@ -37,4 +37,29 @@ body{
 
 .limpar-float{
   clear: both;
+}
+
+.objetivo {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40px;
+}
+
+.educacao {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40px;
+}
+
+.experiencia {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40px;
+}
+
+.habilidades {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40px;
+}
+
+.atividades {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40px;
 }
