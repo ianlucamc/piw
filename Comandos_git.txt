@@ -12,3 +12,16 @@ Registrar as mudanças (nova versão)
 
 Enviar código para repositório na Internet
 - git push origin master
+
+Para apagar pastas no repositório:
+Sincronizar com o repositório remoto
+- git pull origin master
+
+Remover pasta localmente
+- git rm -r NOMEDAPASTA
+
+Fazer commit das modificações
+- git commit -m "Remover pastas"
+
+Sincronizar com repositório remoto
+- git push origin master
