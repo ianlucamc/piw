@@ -19,15 +19,21 @@
         });
 
         $("#btnPessoais").click(function(){
-          $(".pessoais").show();
+          $(".academicos").hide();
+          $(".contato").hide();
+          $(".pessoais").fadeIn();
         });
 
         $("#btnAcademico").click(function() {
-          $(".academicos").show();
+          $(".pessoais").hide();
+          $(".contato").hide();
+          $(".academicos").fadeIn();
         });
 
         $("#btnContato").click(function() {
-          $(".contato").show();
+          $(".academicos").hide();
+          $(".pessoais").hide();
+          $(".contato").fadeIn();
         });
 
       });
